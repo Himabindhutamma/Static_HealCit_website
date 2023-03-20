@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={Store}>
   <React.StrictMode>
-      <BrowserRouter basename='website'>
+      <BrowserRouter basename='healcit'>
       <App />
       </BrowserRouter>
     </React.StrictMode>
