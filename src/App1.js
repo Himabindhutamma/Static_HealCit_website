@@ -68,8 +68,8 @@ export default function App() {
             Store.dispatch({type:ReducerTypes.LOGOUT});
         }
     }
-    const exclusionArray = ['/website/dashboard/appointments','/website/dashboard/patientdetails','/website/dashboard/appointmentbooking','/website/dashboard/prescription','/website/dashboard/medicalrecords','/website/dashboard/patientinvoices',
-    '/website/dashboard/changepassword','/website/dashboard/profile','/website/dashboard/patientprofilesettings','/website/dashboard/patientprescription']
+    const exclusionArray = ['/healcit/dashboard/appointments','/healcit/dashboard/patientdetails','/healcit/dashboard/appointmentbooking','/healcit/dashboard/prescription','/healcit/dashboard/medicalrecords','/healcit/dashboard/patientinvoices',
+    '/healcit/dashboard/changepassword','/healcit/dashboard/profile','/healcit/dashboard/patientprofilesettings','/healcit/dashboard/patientprescription']
     return (
         <>
          

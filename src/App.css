@@ -746,7 +746,7 @@ color: white;
 .blogs-title{
   text-align: center;
     padding-top: 20px;
-    font-size: 80px;
+    font-size: 50px;
     color: rgba(9,9,121,1);
     text-transform: uppercase;
     letter-spacing: -1.6px;
@@ -1099,6 +1099,9 @@ margin-left: 310px;
     display: grid;
 
   }
+  .form-text{
+    margin-left: 210px;
+  }
 
 }
 .doc-details{
@@ -1386,8 +1389,9 @@ ol {
   text-transform: uppercase;
   font-family: "BebasNeueBold";
   color:rgba(9,9,121,1) ;
-  font-size: 80px;
-  line-height: 0.8;
+  font-size: 50px;
+  line-height: 1.0;
+  text-align: justify;
   letter-spacing: -1.6px;
 }
 
@@ -5528,7 +5532,7 @@ a:hover {
 
 @media (max-width: 767.98px) {
   .bg-text, .bg-text_dark {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 
@@ -6840,7 +6844,7 @@ background-color: #fff;
   position: relative;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
 }
 
 .about__our-misson {
@@ -6949,11 +6953,12 @@ background-color: #fff;
 
 .about__text > p {
   font-family: "Roboto Light";
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 35px;
   line-height: 30px;
   color: #333333;
   margin-bottom: 22px;
+  text-align: justify;
 }
 
 .about__text-signature {
@@ -7139,7 +7144,8 @@ background-color: #fff;
   color: #333333;
   margin-top: 10px;
   line-height: 26px;
-  font-size: 15px;
+  font-size: 17px;
+  text-align: justify;
 }
 
 /**************************************************/
@@ -7716,7 +7722,8 @@ background-color: #fff;
 
 .testimonials__content-carousel-item q {
   font-style: italic;
-  font-size: 19px;
+  font-size: 20px;
+  text-align: justify;
   line-height: 40px;
   letter-spacing: -.15px;
 }
@@ -7966,6 +7973,8 @@ background-color: #fff;
   color: #333333;
   margin-top: 8px;
   line-height: 1.5;
+  font-size: 18px;
+  text-align: justify;
 }
 
 /**************************************************/
@@ -9730,11 +9739,11 @@ background-color: #fff;
 .our-numbers__items > .item > h1 {
   font-family: "BebasNeueBold";
   letter-spacing: -2px;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .our-numbers__items > .item > h1 > span {
-  font-size: 80px;
+  font-size: 50px;
   font-family: "BebasNeueBold";
   letter-spacing: -2px;
 }
@@ -11919,7 +11928,7 @@ background-color: #fff;
 
 .header-bottom-4 > img {
   position: absolute;
-  top: -150px;
+  top: 0px;
   left: 0;
   height: 500px;
   width: 100%;
@@ -11932,7 +11941,7 @@ background-color: #fff;
 
 .header-bottom-4__bg {
   position: absolute;
-  top: -150px;
+  top: 0px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -12100,8 +12109,9 @@ background-color: #fff;
 .about-4 > .container > .content > .content-right > p {
   margin-top: 30px;
   font-family: "Roboto Light";
-  font-size: 16px;
-  line-height: 2;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
   color: #333333;
   margin-bottom: 20px;
 }
@@ -17880,7 +17890,7 @@ background-color: #fff;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
 }
 
 .contact > .container.container_right-sidebar > .article {
@@ -19561,12 +19571,12 @@ body {
     height: 430px;
   }
   .header-bottom-4 > img {
-    top: -70px;
+    top: 0px;
     -o-object-position: center top;
        object-position: center top;
   }
   .header-bottom-4__bg {
-    top: -70px;
+    top: 0px;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #ffffff), to(transparent));
     background-image: linear-gradient(to right, #ffffff 30%, transparent);
   }
