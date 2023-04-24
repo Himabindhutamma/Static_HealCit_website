@@ -36,6 +36,13 @@ const App = ({userId,isLogin}) => {
   useEffect(()=>{
     Setdefaultvalues();
   },[])
+  useEffect(()=>{
+    return()=>{
+      console.log("localstorage")
+      localStorage.clear();
+    }  
+    
+  },[])
   const Setdefaultvalues = () => {
     let login = localStorage.getItem("login");
     if (login) {

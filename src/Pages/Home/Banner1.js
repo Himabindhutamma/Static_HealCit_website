@@ -92,7 +92,7 @@ const Banner1 = () => {
         console.log(arrayObj);
         setBannerData(arrayObj);
 
-        var newdata1 = r.find(i => i['name_staticPages'] === 'banner-card5')
+        var newdata1 = r.find(i => i['name_staticPages'] === 'banner-card6')
         let newarray1 = newdata1.data_staticPages
         const arrayObj1 = JSON.parse(newarray1);
         console.log(arrayObj1);
